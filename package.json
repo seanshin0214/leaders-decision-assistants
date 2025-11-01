@@ -1,0 +1,24 @@
+{
+  "name": "persona-mcp",
+  "version": "1.0.0",
+  "description": "Persona management MCP server with trigger-based activation",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "persona-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "persona",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "docx": "^9.5.1"
+  }
+}
