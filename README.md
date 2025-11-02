@@ -292,6 +292,89 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full details.
 
 ---
 
+## ❓ FAQ
+
+### Does this cost money to use?
+
+**No API costs.** Persona MCP is completely free to use. Unlike AI Council MCP (which calls multiple AI APIs), Persona MCP only manages text files on your local computer. It doesn't make any external API calls.
+
+**What you need:**
+- ✅ Claude Desktop (free or paid subscription)
+- ✅ Node.js (free)
+- ❌ No additional API keys required
+- ❌ No pay-per-use costs
+
+**Cost structure:**
+- Persona MCP itself: **$0** (open source, MIT License)
+- Running personas in Claude Desktop: Uses your existing Claude subscription
+- The personas are just text prompts that enhance Claude's behavior
+
+### Who pays for what?
+
+**You:**
+- Your Claude Desktop subscription (if using Claude Pro)
+- No additional costs for Persona MCP
+
+**Creator (@seanshin0214):**
+- Does NOT pay for your Claude usage
+- Does NOT collect any fees
+- Provides this as free open-source software
+
+### Is this a cloud service or SaaS?
+
+**No.** Persona MCP runs entirely on your local computer.
+
+**How it works:**
+1. You download and install Persona MCP on your computer
+2. Personas are stored as `.txt` files in `~/.persona/` folder
+3. When you type `@persona:name`, it loads that text file
+4. No data sent to external servers
+5. Everything stays on your machine
+
+### Do you collect any data?
+
+**No.** Everything is local:
+- ✅ Persona files stored locally (`~/.persona/`)
+- ✅ Usage analytics stored locally (never transmitted)
+- ✅ No telemetry, tracking, or data collection
+- ✅ No central server to send data to
+- ✅ Your privacy is 100% protected
+
+### How is this different from ChatGPT custom GPTs?
+
+**ChatGPT Custom GPTs:**
+- Cloud-based, stored on OpenAI servers
+- Requires ChatGPT Plus ($20/month)
+- Limited to OpenAI ecosystem
+- Can be shared publicly (privacy concerns)
+
+**Persona MCP:**
+- Runs locally on your computer
+- Works with Claude Desktop (any tier)
+- Open source and fully customizable
+- 100% private (never leaves your machine)
+- 80%+ token savings with Submarine Mode
+- Community marketplace with revenue sharing
+
+### Will the marketplace charge for personas?
+
+**Current (Phase 1):**
+- All 26 community personas are **FREE**
+- MIT License (open source)
+
+**Future (Phase 3 - Planned):**
+- Premium personas may be offered by creators
+- 70/30 revenue split (Creator gets 70%)
+- Free personas will always remain available
+- You choose what to download
+
+**If you contribute a persona now:**
+- It's free and open source (MIT)
+- If marketplace launches, you're eligible for 70% revenue share on premium versions
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for details
+
+---
+
 ## 📚 Documentation
 
 - [VISION.md](VISION.md) - Long-term vision and roadmap
