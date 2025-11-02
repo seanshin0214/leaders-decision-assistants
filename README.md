@@ -9,6 +9,10 @@
 
 An advanced persona management MCP server for Claude Desktop that revolutionizes how AI maintains specialized expertise while dramatically reducing token consumption.
 
+<a href="https://glama.ai/mcp/servers/@seanshin0214/persona-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@seanshin0214/persona-mcp/badge" alt="Persona MCP server" />
+</a>
+
 ---
 
 ## ✨ What is Persona MCP?
