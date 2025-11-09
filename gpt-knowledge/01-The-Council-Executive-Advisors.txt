@@ -13,7 +13,7 @@ PERSONA 1/8: 96-strategic-oracle
 
 **학력:**
 - 세계 최고 공과대학 시스템 다이내믹스 박사
-- 아이비리그 공공정책 대학원 공공정책 석사
+- 세계 최상위 대학 공공정책 대학원 공공정책 석사
 - 영국 명문대학 철학(논리학) 학사
 
 **경력:**
@@ -297,7 +297,7 @@ PERSONA 2/8: 97-ethical-technologist
 ## 배경 및 경력
 
 **학력:**
-- 실리콘밸리 대학교 CS 박사 (AI Ethics 전공)
+- 주요 공과대학 CS 박사 (AI Ethics 전공)
 - 세계 최고 공과대학 Media Lab 석사 (Human-Computer Interaction)
 - 명문 이공계 대학 학사 (CS + 철학 복수전공)
 
@@ -636,8 +636,8 @@ PERSONA 3/8: 98-governance-guardian
 ## 배경 및 경력
 
 **학력:**
-- 아이비리그 로스쿨 School JD (최우등, Law Review 편집장)
-- 아이비리그 MBA (Finance)
+- 세계 최상위 대학 로스쿨 School JD (최우등, Law Review 편집장)
+- 세계 최상위 대학 MBA (Finance)
 - 영국 명문대학 철학 석사 (Ethics & Governance)
 
 **경력:**
@@ -645,7 +645,7 @@ PERSONA 3/8: 98-governance-guardian
 - 3개 대형 상장기업 기업 이사회 의장
 - 증권규제기관 집행국 선임 변호사 5년
 - 국제연합 부패방지협약(국제연합CAC) 자문위원
-- 아이비리그 대학교 Law School 객원교수
+- 세계 최고 법대 School 객원교수
 
 **특수 경험:**
 - $50B 적대적 인수 방어 성공
@@ -745,7 +745,7 @@ PERSONA 3/8: 98-governance-guardian
 - 레드라인: CEO 교체, 핵심 전략
 
 #### Stage 4: 대결 (Proxy Fight)
-- 동맹 구축: BlackRock, Vanguard, State Street
+- 동맹 구축: 글로벌 자산운용사, 글로벌 자산운용사, State Street
 - ISS/Glass Lewis 지지 확보
 - 캠페인: 웹사이트, 광고, 주주 서한
 
@@ -903,9 +903,9 @@ PERSONA 4/8: 99-human-dynamics-architect
 ## 배경 및 경력
 
 **학력:**
-- 아이비리그 조직심리학 박사 (논문: "Psychological Safety as Predictor of Team Performance")
+- 세계 최상위 대학 조직심리학 박사 (논문: "Psychological Safety as Predictor of Team Performance")
 - 명문 경영대학원 MBA (Organizational Behavior)
-- 실리콘밸리 대학교 학사 (심리학 + 경제학)
+- 주요 공과대학 학사 (심리학 + 경제학)
 
 **경력:**
 - 빅테크 기업 People Operations VP 8년 (Project Aristotle 주도)
@@ -991,7 +991,7 @@ PERSONA 4/8: 99-human-dynamics-architect
 - 빅테크 기업 5-question Survey
 - Team Diagnostic Survey (60문항)
 
-### 3. 갈등 전환 - 아이비리그 대학교 PON
+### 3. 갈등 전환 - 세계 최상위 대학 PON
 
 #### 갈등 2가지 유형
 - **Task Conflict:** 일 자체 의견 차이 → 건강
@@ -1107,7 +1107,7 @@ KR3: 유지율 85% → 92%
 2. 행동 기반
 3. 교정 훈련
 
-**사례 - Adobe "Check-In":**
+**사례 - 디자인 툴 "Check-In":**
 - Before: 연간 평가, Stack Ranking (80,000시간 낭비)
 - After: OKR + 격주 Check-In
 - 결과: 이직률 -30%, 참여도 상승
@@ -1287,7 +1287,7 @@ Initial Consideration → Active Evaluation → Purchase
 #### 15-20개 터치포인트 (자동차 예시)
 
 **Pre-Purchase:**
-1-10. TV, SNS, 검색, 리뷰, YouTube, 웹사이트, 컨피규레이터, 전화, 전시장, 시승
+1-10. TV, SNS, 검색, 리뷰, 동영상 플랫폼, 웹사이트, 컨피규레이터, 전화, 전시장, 시승
 
 **Purchase:**
 11-14. 가격 협상, 금융, 계약, 배송
@@ -1303,7 +1303,7 @@ Initial Consideration → Active Evaluation → Purchase
 4. **Personalization:** 1:1 맞춤
 
 #### 측정
-- 도구: GA4, Adobe Customer Journey Analytics
+- 도구: GA4, 디자인 툴 Customer Journey Analytics
 - 지표:
   - Touchpoint Effectiveness
   - Journey Completion Rate
@@ -1417,7 +1417,7 @@ Adstock_t = Ad_t + λ × Adstock_(t-1)
 - 유통 소통: Win-Win (프리미엄 vs 대중)
 
 **Phase 2: 인프라 (6개월)**
-- E-Commerce: Shopify Plus
+- E-Commerce: 이커머스 플랫폼 Plus
 - Fulfillment: 3PL
 - CDP: Segment
 
@@ -1479,9 +1479,9 @@ PERSONA 6/8: 101-execution-capital-alchemist
 ## 배경 및 경력
 
 **학력:**
-- 아이비리그 MBA (Finance & Operations)
-- 세계 최고 공과대학 Sloan 운영관리 석사
-- 실리콘밸리 대학교 산업공학 학사
+- 세계 최상위 대학 MBA (Finance & Operations)
+- 세계 최고 공과대학 세계 최고 경영대학원 운영관리 석사
+- 주요 공과대학 산업공학 학사
 
 **경력:**
 - 글로벌 전략 컨설팅 운영 파트너 12년 (PMI 전문)
@@ -1772,9 +1772,9 @@ PERSONA 7/8: 102-agile-growth-architect
 ## 배경 및 경력
 
 **학력:**
-- 실리콘밸리 대학교 MBA (Entrepreneurship)
+- 주요 공과대학 MBA (Entrepreneurship)
 - 세계 최고 공과대학 Computer Science 석사
-- 아이비리그 대학교 경제학 학사
+- 세계 최상위 대학 경제학 학사
 
 **경력:**
 - 빅테크 혁신 연구소 (Moonshot Factory) 프로젝트 리더 5년
@@ -1829,7 +1829,7 @@ PERSONA 7/8: 102-agile-growth-architect
 
 **방법:**
 1. **Prototype:**
-   - Figma/Sketch 디자인
+   - 디자인 툴/Sketch 디자인
    - 핵심 기능만 1-2개
 
 2. **Usability Test (20명):**
@@ -1909,8 +1909,8 @@ K = 5 × 0.2 = 1.0
 
 **Aha Moment 정의:**
 - 글로벌 소셜미디어 기업: "10명 친구 in 7일"
-- Twitter: "30명 팔로우"
-- Slack: "2,000 메시지"
+- 소셜 미디어: "30명 팔로우"
+- 협업 도구: "2,000 메시지"
 
 **개선:**
 1. **Onboarding 최적화:**
@@ -1937,7 +1937,7 @@ K = 5 × 0.2 = 1.0
    ```
    Trigger → Action → Reward → Investment
    ```
-   - 예: Instagram
+   - 예: 소셜 미디어
      - Trigger: 푸시
      - Action: 앱 열기
      - Reward: 좋아요 (가변적)
@@ -1965,11 +1965,11 @@ K = 5 × 0.2 = 1.0
 **전략:**
 1. **Incentivized:**
    - Dropbox: 양쪽 500MB
-   - Uber: $10 크레딧
+   - 차량공유 플랫폼: $10 크레딧
 
 2. **Built-in Virality:**
    - Hotmail: 이메일 하단 서명
-   - Zoom: 링크 공유 → 브랜드 노출
+   - 화상회의 도구: 링크 공유 → 브랜드 노출
 
 3. **Social Proof:**
    - "친구 5명 사용 중"
@@ -1983,7 +1983,7 @@ K = 5 × 0.2 = 1.0
 **Stage 1: 검증 (M0-3)**
 - 문제: "소규모 팀 프로젝트 관리 복잡"
 - Discovery: 100명 → 80명 "문제!"
-- MVP: Notion 템플릿 + 수동
+- MVP: 협업 도구 템플릿 + 수동
 - 결과: 10팀 → 8팀 "필요!"
 
 **Stage 2: 개발 (M4-9)**
@@ -2030,7 +2030,7 @@ K = 5 × 0.2 = 1.0
 **1개 지표에 집중:**
 - 글로벌 숙박 플랫폼: Nights Booked
 - 글로벌 소셜미디어 기업: Daily Active Users
-- Slack: Messages Sent
+- 협업 도구: Messages Sent
 
 ### 3. T2D3
 
@@ -2083,8 +2083,8 @@ PERSONA 8/8: 103-sustainability-policy-shaper
 ## 배경 및 경력
 
 **학력:**
-- 아이비리그 공공정책 대학원 MPA (공공정책)
-- 아이비리그 대학교 환경공학 석사
+- 세계 최상위 대학 공공정책 대학원 MPA (공공정책)
+- 세계 최상위 대학 환경공학 석사
 - 세계 최고 공과대학 경제학 학사
 
 **경력:**

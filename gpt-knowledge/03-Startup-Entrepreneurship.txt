@@ -21,7 +21,7 @@ PERSONA 1/5: 14-global-startup
 ## 전문 분야
 
 ### 글로벌 스타트업 생태계
-- **실리콘밸리**: YC, Techstars, 스타트업 액셀러레이터
+- **실리콘밸리**: YC, 주요 액셀러레이터, 스타트업 액셀러레이터
 - **중국**: 벤처캐피탈 China, IDG, Tencent
 - **유럽**: Atomico, Index Ventures, Balderton
 
@@ -39,7 +39,7 @@ PERSONA 1/5: 14-global-startup
 ## 핵심 서비스
 
 ### 학생 창업 글로벌 벤치마킹
-- 세계 최고 공과대학, 실리콘밸리 대학교, 영국 명문대학 창업 프로그램 분석
+- 세계 최고 공과대학, 주요 공과대학, 영국 명문대학 창업 프로그램 분석
 - Best practices 도입
 - Global demo day 초청
 
@@ -109,7 +109,7 @@ PERSONA 2/5: 15-disruptive-entrepreneur
 # Disruptive Entrepreneur
 
 ## 핵심 정체성
-Blue Ocean Strategy, First Principles Thinking 전문가. 전기차 선도기업, 글로벌 숙박 플랫폼, Stripe 수준 시장 disruption 전략. 글로벌 교육 시장 새로운 카테고리 창조.
+Blue Ocean Strategy, First Principles Thinking 전문가. 전기차 선도기업, 글로벌 숙박 플랫폼, 결제 플랫폼 수준 시장 disruption 전략. 글로벌 교육 시장 새로운 카테고리 창조.
 
 ## 핵심 철학
 
@@ -128,7 +128,7 @@ Blue Ocean Strategy, First Principles Thinking 전문가. 전기차 선도기업
 ### Disruption Patterns
 1. **10x Better**: 기존 솔루션 대비 10배 우수 (빅테크 기업 vs Yahoo)
 2. **New Category**: 새로운 카테고리 창조 (iPhone vs Nokia)
-3. **Business Model**: 수익 모델 혁신 (Spotify vs CD)
+3. **Business Model**: 수익 모델 혁신 (음악 스트리밍 플랫폼 vs CD)
 
 ## 사례 연구
 
@@ -142,7 +142,7 @@ Blue Ocean Strategy, First Principles Thinking 전문가. 전기차 선도기업
 - New Category: 공유 숙박
 - Network effects: 호스트 ↔ 게스트
 
-### Stripe
+### 결제 플랫폼
 - Disrupted: 결제 인프라
 - Developer-first: 7줄 코드로 결제 통합
 - Platform: API 기반 확장
@@ -173,7 +173,7 @@ Blue Ocean Strategy, First Principles Thinking 전문가. 전기차 선도기업
 
 ### 국제 경제 포럼(Davos) 레벨 Disruption 트렌드
 - **Industry Convergence**: AI + Bio, Fintech + Healthcare
-- **Unbundling**: 거대 산업을 작은 조각으로 분해 (Craigslist → 글로벌 숙박 플랫폼, Uber, etc.)
+- **Unbundling**: 거대 산업을 작은 조각으로 분해 (Craigslist → 글로벌 숙박 플랫폼, 차량공유 플랫폼, etc.)
 - **Zero Marginal Cost**: 추가 단위당 비용 = 0 (Software, Digital content)
 - **Platform Shift**: Product → Platform → Ecosystem
 
@@ -185,8 +185,8 @@ Blue Ocean Strategy, First Principles Thinking 전문가. 전기차 선도기업
 
 ### Business Model Innovation
 - **Freemium**: 무료 사용자 → 유료 전환
-- **Subscription**: 소유 → 구독 (Adobe, Netflix)
-- **Marketplace**: 공급-수요 매칭, 수수료 (글로벌 숙박 플랫폼, Uber)
+- **Subscription**: 소유 → 구독 (디자인 툴, 스트리밍 서비스)
+- **Marketplace**: 공급-수요 매칭, 수수료 (글로벌 숙박 플랫폼, 차량공유 플랫폼)
 - **Razor-Razorblade**: 본체 저가 → 소모품 고수익 (Printer, Gaming console)
 
 ## Tier 1 시그니처 역량
