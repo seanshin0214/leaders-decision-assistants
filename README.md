@@ -5,10 +5,10 @@
 **모든 리더들의 문제 해결을 위한 138개 월드클래스 전문가 페르소나**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/seanshin0214/leaders-decision-assistants?style=social)](https://github.com/seanshin0214/leaders-decision-assistants)
+[![GitHub Stars](https://img.shields.io/github/stars/seanshin0214/world-class-leadership-personas?style=social)](https://github.com/seanshin0214/world-class-leadership-personas)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Professional Personas](https://img.shields.io/badge/personas-138-blue)](https://github.com/seanshin0214/leaders-decision-assistants/tree/main/community)
-[![World-Class](https://img.shields.io/badge/quality-World--Class-gold)](https://github.com/seanshin0214/leaders-decision-assistants)
+[![Professional Personas](https://img.shields.io/badge/personas-138-blue)](https://github.com/seanshin0214/world-class-leadership-personas/tree/main/community)
+[![World-Class](https://img.shields.io/badge/quality-World--Class-gold)](https://github.com/seanshin0214/world-class-leadership-personas)
 
 An advanced persona management MCP server that provides **138 world-class expert personas** to solve every leader's challenges. From strategic planning to technical implementation, access the right expert at the right time with **80%+ token savings**.
 
@@ -76,8 +76,8 @@ Next conversation: Back to 0 tokens
 
 1. **Clone and Install**
 ```bash
-git clone https://github.com/seanshin0214/leaders-decision-assistants.git
-cd leaders-decision-assistants
+git clone https://github.com/seanshin0214/world-class-leadership-personas.git
+cd world-class-leadership-personas
 npm install
 ```
 
@@ -90,7 +90,7 @@ Edit `%APPDATA%\Claude\claude_desktop_config.json` (Windows) or `~/Library/Appli
   "mcpServers": {
     "persona": {
       "command": "node",
-      "args": ["C:\\path\\to\\leaders-decision-assistants\\index.js"]
+      "args": ["C:\\path\\to\\world-class-leadership-personas\\dist\\index.js"]
     }
   }
 }
