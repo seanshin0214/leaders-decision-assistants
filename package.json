@@ -1,7 +1,7 @@
 {
   "name": "world-class-leadership-personas",
-  "version": "2.1.0",
-  "description": "World-Class Leadership Assistant Personas - 138 world-class expert personas for all leaders' problem solving & strategic decision making. Smart context detection, expert chaining, and Submarine Mode for 80%+ token savings.",
+  "version": "2.4.0",
+  "description": "142 World-Class+ Professional Personas - MCP server for leaders' problem solving and strategic decision making (세계 최고 공과대학 리더들의 의사결정 도우미 - 142개 월드클래스+ 전문가 페르소나) Smart context detection, expert chaining, and Submarine Mode for 80%+ token savings.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
