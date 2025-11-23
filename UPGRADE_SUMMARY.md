@@ -1,8 +1,8 @@
 # 🎯 페르소나 시스템 업그레이드 요약
 
 **날짜**: 2025-11-23  
-**버전**: v2.4.0 → v3.0.0  
-**목표**: 역할극(Role-Play) → 실제 기능(Functional Capability)
+**버전**: v2.4.0 → v3.0.0 → **v3.1.0 (RAG)**  
+**목표**: 역할극(Role-Play) → 실제 기능(Functional Capability) → **진짜 전문가(RAG)**
 
 ---
 
