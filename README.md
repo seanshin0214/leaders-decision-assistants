@@ -4,6 +4,17 @@
 
 **모든 리더들의 문제 해결을 위한 142개 월드클래스+ 전문가 페르소나**
 
+## 🎉 **NEW**: Complete Professional Knowledge Base!
+
+**All 142 personas now include comprehensive, expert-level knowledge base documents!**
+- 📚 **Real-world code examples** (Python, JavaScript, Bash, SQL, Swift, Kotlin)
+- 🎯 **Production-ready best practices** from industry experts
+- 🔧 **Step-by-step workflows** and practical guides
+- 💡 **Domain-specific frameworks** and methodologies
+- ⚡ **CLI commands & configurations** (AWS, Azure, GCP, kubectl)
+
+> **Not just prompts anymore!** Each persona is backed by detailed, practical knowledge base documents that provide real expertise.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/seanshin0214/world-class-leadership-personas?style=social)](https://github.com/seanshin0214/world-class-leadership-personas)
 [![GitHub Forks](https://img.shields.io/github/forks/seanshin0214/world-class-leadership-personas?style=social)](https://github.com/seanshin0214/world-class-leadership-personas/fork)
@@ -75,9 +86,9 @@ Next conversation: Back to 0 tokens
 ## 📦 Installation
 
 ### Prerequisites
-- Claude Desktop
 - Node.js 18+
 - npm or yarn
+- One of the supported IDEs: Claude Desktop, Cursor, Windsurf, or Cline
 
 ### Steps
 
@@ -86,9 +97,14 @@ Next conversation: Back to 0 tokens
 git clone https://github.com/seanshin0214/world-class-leadership-personas.git
 cd world-class-leadership-personas
 npm install
+npm run build
 ```
 
-2. **Configure Claude Desktop**
+2. **Configure Your IDE**
+
+Choose your IDE and follow the configuration steps:
+
+#### 🖥️ Claude Desktop
 
 Edit `%APPDATA%\Claude\claude_desktop_config.json` (Windows) or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):
 
@@ -97,13 +113,94 @@ Edit `%APPDATA%\Claude\claude_desktop_config.json` (Windows) or `~/Library/Appli
   "mcpServers": {
     "persona": {
       "command": "node",
-      "args": ["C:\\path\\to\\world-class-leadership-personas\\dist\\index.js"]
+      "args": ["C:\\Users\\YourName\\Documents\\world-class-leadership-personas\\dist\\index.js"]
     }
   }
 }
 ```
 
-3. **Restart Claude Desktop**
+Restart Claude Desktop to activate.
+
+#### 🔮 Cursor
+
+Edit `.cursor/config.json` in your home directory:
+
+```json
+{
+  "mcpServers": {
+    "persona": {
+      "command": "node",
+      "args": ["C:\\Users\\YourName\\Documents\\world-class-leadership-personas\\dist\\index.js"]
+    }
+  }
+}
+```
+
+Or use Cursor Settings UI:
+1. Open Cursor Settings (⌘/Ctrl + ,)
+2. Search for "MCP"
+3. Add server with command: `node` and args: `[path to dist/index.js]`
+
+Restart Cursor to activate.
+
+#### 🌊 Windsurf (Codeium)
+
+Edit Windsurf MCP configuration file:
+
+**Windows**: `%APPDATA%\Windsurf\mcp_config.json`
+**Mac**: `~/Library/Application Support/Windsurf/mcp_config.json`
+**Linux**: `~/.config/Windsurf/mcp_config.json`
+
+```json
+{
+  "mcpServers": {
+    "persona": {
+      "command": "node",
+      "args": ["C:\\Users\\YourName\\Documents\\world-class-leadership-personas\\dist\\index.js"]
+    }
+  }
+}
+```
+
+Restart Windsurf to activate.
+
+#### 🔧 Cline (formerly Claude Code)
+
+Edit Cline MCP settings:
+
+**VS Code Settings** > **Extensions** > **Cline** > **MCP Servers**
+
+Add:
+```json
+{
+  "persona": {
+    "command": "node",
+    "args": ["C:\\Users\\YourName\\Documents\\world-class-leadership-personas\\dist\\index.js"]
+  }
+}
+```
+
+Or edit `.vscode/settings.json`:
+```json
+{
+  "cline.mcpServers": {
+    "persona": {
+      "command": "node",
+      "args": ["C:\\Users\\YourName\\Documents\\world-class-leadership-personas\\dist\\index.js"]
+    }
+  }
+}
+```
+
+Reload VS Code window to activate.
+
+3. **Verify Installation**
+
+In any supported IDE:
+```
+You: "List available personas"
+AI: [Shows 142 personas organized by category]
+```
 
 ---
 
@@ -151,6 +248,106 @@ Recommended: @persona:science-teacher
 Confidence: 85%
 Reason: Educational context detected
 ```
+
+---
+
+## 📚 Professional Knowledge Base
+
+**Every persona includes comprehensive knowledge base documents with real expertise!**
+
+### What's Included
+
+Each of the 142 personas has detailed documentation covering:
+
+#### 🔧 **Practical Examples**
+- Production-ready code snippets (Python, JavaScript, TypeScript, Swift, Kotlin, SQL, Bash)
+- Real-world workflows and step-by-step guides
+- CLI commands for major platforms (AWS, Azure, GCP, kubectl)
+- Configuration files and setup instructions
+
+#### 🎯 **Domain Expertise**
+- Industry-standard frameworks and methodologies
+- Best practices from leading companies
+- Common pitfalls and how to avoid them
+- Performance optimization techniques
+
+#### 💡 **Actionable Insights**
+- Decision-making frameworks
+- Troubleshooting guides
+- Resource recommendations (books, tools, courses)
+- Related competencies and skills
+
+### Example Knowledge Base Documents
+
+#### Engineering & Development
+- **101-software-engineer**: Software Engineering & Architecture 2025
+  * Design patterns, SOLID principles, system design
+  * Code examples: Factory, Observer, Strategy patterns
+  * Best practices: Code reviews, testing, documentation
+
+- **106-mobile-developer**: Mobile App Development 2025
+  * iOS development with Swift/SwiftUI (state management, navigation, networking)
+  * Android development with Kotlin/Jetpack Compose
+  * Cross-platform with React Native
+  * Production code examples for each platform
+
+- **132-devops-engineer**: DevOps, CI/CD & Infrastructure 2025
+  * GitHub Actions, GitLab CI workflows
+  * Docker multi-stage builds
+  * Kubernetes deployments, services, ingress
+  * Terraform infrastructure as code (AWS, Azure, GCP)
+  * Prometheus + Grafana monitoring
+
+#### Healthcare
+- **701-physician**: Clinical Medicine & Diagnosis 2025
+  * Differential diagnosis frameworks
+  * Treatment protocols by specialty
+  * Clinical decision-making tools
+  * Evidence-based medicine guidelines
+
+- **710-nurse-practitioner**: Advanced Practice Nursing & Primary Care 2025
+  * Comprehensive health assessment (HPI, ROS, physical exam)
+  * Common diagnoses: HTN, diabetes, hyperlipidemia, depression
+  * Prescribing guidelines and antibiotic stewardship
+  * Motivational interviewing and patient education
+
+#### Business & Strategy
+- **301-product-manager**: Product Management & Strategy 2025
+  * Product discovery frameworks
+  * Prioritization methods (RICE, Kano, Value vs Effort)
+  * Roadmap planning and stakeholder management
+  * Metrics and analytics (AARRR, cohort analysis)
+
+- **302-data-analyst**: Data Analysis & Business Intelligence 2025
+  * SQL queries for business analytics
+  * Python data analysis with pandas/numpy
+  * Tableau/Power BI dashboard design
+  * Statistical analysis and A/B testing
+
+#### Creative & Content
+- **233-music-producer**: Music Production & Audio Engineering 2025
+  * DAW workflows (Ableton, FL Studio, Logic Pro)
+  * Mixing and mastering techniques
+  * Sound design and synthesis
+  * Production-ready examples
+
+- **313-content-creator**: Content Creation & Social Media 2025
+  * Platform strategy (YouTube, TikTok, Instagram)
+  * Content calendar and batch creation
+  * Brand partnerships and monetization
+  * Engagement tactics and growth strategies
+
+### How to Access Knowledge Base
+
+1. **Browse on GitHub**: `knowledge-base/{persona-id}/core-competencies/`
+2. **Ask the persona directly**:
+   ```
+   You: "@persona:132-devops-engineer Show me Kubernetes deployment best practices"
+   AI: [References knowledge base and provides detailed guide]
+   ```
+3. **Explore by category**: See [PERSONA_CATEGORIES.md](PERSONA_CATEGORIES.md) for full list
+
+> **💡 Pro Tip**: Each knowledge base document is 1000+ lines of expert-level content, making these personas truly professional-grade advisors!
 
 ---
 
