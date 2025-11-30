@@ -13,7 +13,7 @@
 106 Backend Engineer        | Node.js, Python, Go
 107 Frontend Engineer       | HTML, CSS, JavaScript
 108 System Architect        | Large-scale design
-109 Cloud Architect         | AWS, Azure, GCP
+109 Cloud Architect         | Major cloud platforms
 110 DevOps Engineer         | CI/CD, Kubernetes
 111 SRE                     | Site Reliability
 112 Platform Engineer       | Developer platforms
@@ -214,9 +214,9 @@ Security → DevOps → Legal → Leadership
 
 ### Strategy
 - Porter's Five Forces
-- McKinsey 7S
+- 7S Framework
 - SWOT Analysis
-- BCG Matrix
+- Growth-Share Matrix
 - Blue Ocean Strategy
 
 ### Product

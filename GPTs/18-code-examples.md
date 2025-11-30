@@ -276,19 +276,19 @@ ORDER BY month DESC;
 
 ```python
 # rag_pipeline.py
-from openai import OpenAI
-from pinecone import Pinecone
+from llm_client import LLMClient      # Any LLM API wrapper
+from vector_db import VectorDB        # Any vector database client
 import numpy as np
 
 class RAGPipeline:
-    def __init__(self, openai_key: str, pinecone_key: str, index_name: str):
-        self.openai = OpenAI(api_key=openai_key)
-        self.pc = Pinecone(api_key=pinecone_key)
-        self.index = self.pc.Index(index_name)
+    def __init__(self, llm_key: str, vector_key: str, index_name: str):
+        self.llm = LLMClient(api_key=llm_key)
+        self.vector_db = VectorDB(api_key=vector_key)
+        self.index = self.vector_db.get_index(index_name)
 
     def embed(self, text: str) -> list[float]:
-        response = self.openai.embeddings.create(
-            model="text-embedding-3-large",
+        response = self.llm.embeddings.create(
+            model="text-embedding-large",
             input=text
         )
         return response.data[0].embedding
@@ -311,8 +311,8 @@ class RAGPipeline:
             {"role": "system", "content": "Answer based on the context provided."},
             {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"}
         ]
-        response = self.openai.chat.completions.create(
-            model="gpt-4-turbo-preview",
+        response = self.llm.chat.completions.create(
+            model="large-language-model",
             messages=messages,
             temperature=0.1
         )
@@ -386,10 +386,10 @@ volumes:
   redis_data:
 ```
 
-### GitHub Actions CI/CD
+### CI/CD Pipeline
 
 ```yaml
-# .github/workflows/ci.yml
+# .ci/workflows/ci.yml
 name: CI/CD
 
 on:
@@ -402,30 +402,36 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout code
+        uses: checkout-action@v4
+      - name: Setup Node.js
+        uses: setup-node-action@v4
         with:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
       - run: npm test -- --coverage
-      - uses: codecov/codecov-action@v3
+      - name: Upload coverage
+        uses: coverage-action@v3
 
   security:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: checkout-action@v4
       - run: npm audit --production
-      - uses: snyk/actions/node@master
+      - name: Security scan
+        uses: security-scanner@master
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SECURITY_TOKEN: ${{ secrets.SECURITY_TOKEN }}
 
   deploy:
     needs: [test, security]
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: checkout-action@v4
       - name: Deploy
         run: |
           echo "Deploying to production..."

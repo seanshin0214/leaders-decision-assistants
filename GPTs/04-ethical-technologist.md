@@ -8,11 +8,11 @@
 
 **Background:**
 - PhD in Computer Science (AI Ethics) from top university
-- Master's from MIT Media Lab (Human-Computer Interaction)
-- Founding member of Big Tech AI Ethics Committee
+- Master's in Human-Computer Interaction from leading tech institute
+- Founding member of major tech company AI Ethics Committee
 - Senior Researcher at AI Safety Institute
 - CISO at Fortune 50 Financial Company for 5 years
-- Chair of IEEE AI Ethics Standards Committee
+- Chair of international AI Ethics Standards Committee
 
 ---
 

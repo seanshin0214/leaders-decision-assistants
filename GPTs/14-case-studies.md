@@ -2,11 +2,11 @@
 
 ## Technology Case Studies
 
-### Case Study 1: Netflix - Microservices Migration
+### Case Study 1: Streaming Platform - Microservices Migration
 
 ```
 BACKGROUND:
-- 2008: Monolithic architecture, single points of failure
+- Initial: Monolithic architecture, single points of failure
 - Major outage led to strategic rethink
 - Needed to scale for global streaming
 
@@ -18,26 +18,26 @@ CHALLENGE:
 
 SOLUTION:
 ┌─────────────────────────────────────────────────────────────┐
-│                   NETFLIX ARCHITECTURE                       │
+│              MICROSERVICES ARCHITECTURE                      │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
-│  Edge Services (Zuul)                                       │
+│  Edge Services                                              │
 │  ├── API Gateway                                            │
 │  ├── Routing & Load Balancing                               │
 │  └── Authentication                                         │
 │                                                              │
 │  Middle Tier (Microservices)                                │
 │  ├── 700+ microservices                                     │
-│  ├── Eureka (Service Discovery)                             │
-│  ├── Hystrix (Circuit Breaker)                              │
-│  └── Ribbon (Client Load Balancing)                         │
+│  ├── Service Discovery                                      │
+│  ├── Circuit Breaker Pattern                                │
+│  └── Client Load Balancing                                  │
 │                                                              │
 │  Data Layer                                                  │
-│  ├── Cassandra (NoSQL)                                      │
-│  ├── EVCache (Caching)                                      │
-│  └── S3 (Content Storage)                                   │
+│  ├── NoSQL Database                                         │
+│  ├── Distributed Cache                                      │
+│  └── Object Storage                                         │
 │                                                              │
-│  Infrastructure (AWS)                                        │
+│  Infrastructure (Cloud)                                      │
 │  └── Multi-region deployment                                │
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
@@ -45,7 +45,7 @@ SOLUTION:
 RESULTS:
 ✓ 99.99% availability achieved
 ✓ Deployment: 1000s of changes/day
-✓ Scale: Handles 37% of US internet traffic
+✓ Scale: Handles massive internet traffic
 ✓ Recovery: Minutes vs hours
 
 KEY LESSONS:
@@ -56,15 +56,15 @@ KEY LESSONS:
 
 ---
 
-### Case Study 2: Spotify - Squad Model
+### Case Study 2: Music Streaming - Squad Model
 
 ```
 BACKGROUND:
-- 2011: 50 engineers
-- 2023: 2000+ engineers
+- Initial: 50 engineers
+- Growth: 2000+ engineers
 - Challenge: Scale agile practices
 
-SOLUTION: Spotify Model
+SOLUTION: Squad-Based Organization
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
 │    TRIBE (100-150 people)                                  │
@@ -112,15 +112,15 @@ KEY LESSONS:
 
 ## Business Strategy Case Studies
 
-### Case Study 3: Apple - Platform Strategy
+### Case Study 3: Smartphone Platform - App Ecosystem Strategy
 
 ```
 BUSINESS CHALLENGE:
-- 2007: iPhone launch
+- New smartphone launch
 - Need to compete against established players
 - Limited in-house app development capacity
 
-STRATEGY: App Store Platform
+STRATEGY: App Marketplace Platform
 
 VALUE PROPOSITION:
 ┌─────────────────────────────────────────────────────────────┐
@@ -135,7 +135,7 @@ VALUE PROPOSITION:
 │                                                              │
 │                      ▼      ▼                                │
 │             ┌────────────────────┐                          │
-│             │     APP STORE      │                          │
+│             │   APP MARKETPLACE  │                          │
 │             │                    │                          │
 │             │  Network Effects   │                          │
 │             │  More devs = more  │                          │
@@ -143,16 +143,16 @@ VALUE PROPOSITION:
 │             │  = more devs       │                          │
 │             └────────────────────┘                          │
 │                                                              │
-│    APPLE VALUE CAPTURE:                                     │
+│    PLATFORM VALUE CAPTURE:                                  │
 │    └── 30% commission (reduced to 15% for small devs)      │
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
 
-RESULTS (2023):
-✓ $1.1 trillion App Store ecosystem
-✓ 37M registered developers
+RESULTS:
+✓ $1+ trillion ecosystem
+✓ 37M+ registered developers
 ✓ $60B+ paid to developers
-✓ iPhone differentiation through apps
+✓ Device differentiation through apps
 
 KEY LESSONS:
 1. Two-sided markets create powerful moats
@@ -163,7 +163,7 @@ KEY LESSONS:
 
 ---
 
-### Case Study 4: Amazon - Working Backwards
+### Case Study 4: E-Commerce Giant - Working Backwards Method
 
 ```
 INNOVATION METHOD: Working Backwards
@@ -202,23 +202,23 @@ PRESS RELEASE TEMPLATE:
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
 
-EXAMPLE: Amazon Prime (2005 hypothetical)
+EXAMPLE: Premium Membership Program
 
-HEADLINE: Amazon Prime - Unlimited Free Two-Day Shipping
+HEADLINE: Premium Membership - Unlimited Free Two-Day Shipping
 
-SUBHEADLINE: For $79/year, frequent Amazon shoppers can get
+SUBHEADLINE: For $79/year, frequent shoppers can get
 free two-day shipping on millions of items.
 
 PROBLEM: Shipping costs are unpredictable and shipping times
 are slow, making online shopping less convenient than stores.
 
-SOLUTION: Amazon Prime provides unlimited free two-day shipping
-for a flat annual fee, making every purchase faster and removing
-cost uncertainty.
+SOLUTION: Premium membership provides unlimited free two-day
+shipping for a flat annual fee, making every purchase faster
+and removing cost uncertainty.
 
 RESULTS:
-✓ 200M+ Prime members globally
-✓ Prime members spend 4x more than non-members
+✓ 200M+ members globally
+✓ Members spend 4x more than non-members
 ✓ Expanded to video, music, gaming, pharmacy
 ✓ $25B+ annual revenue from membership
 ```
@@ -227,37 +227,37 @@ RESULTS:
 
 ## Startup Case Studies
 
-### Case Study 5: Airbnb - Marketplace Dynamics
+### Case Study 5: Home Sharing Platform - Marketplace Dynamics
 
 ```
 CHALLENGE: Cold Start Problem
-- 2008: No hosts, no guests
+- Launch: No hosts, no guests
 - Need both sides to be valuable
 - Classic chicken-and-egg
 
 SOLUTION PHASES:
 
-PHASE 1: SUPPLY FOCUS (2008-2009)
-├── Target: Events (Obama inauguration, SXSW)
+PHASE 1: SUPPLY FOCUS (Year 1)
+├── Target: Major events (conferences, inaugurations)
 ├── Manual outreach to hosts
 ├── Professional photography service
 └── Focus on one city at a time
 
-PHASE 2: DEMAND GENERATION (2009-2011)
-├── Craigslist integration (cross-posting)
+PHASE 2: DEMAND GENERATION (Year 2-3)
+├── Cross-posting integration
 ├── SEO for destination pages
 ├── Social sharing incentives
 └── Referral program
 
-PHASE 3: TRUST BUILDING (2011-2014)
+PHASE 3: TRUST BUILDING (Year 3-5)
 ├── Reviews (two-sided)
 ├── Verified ID
 ├── $1M Host Guarantee
 └── Professional photography (free)
 
-PHASE 4: PLATFORM EXPANSION (2014+)
+PHASE 4: PLATFORM EXPANSION (Year 5+)
 ├── Experiences
-├── Luxury (Plus)
+├── Luxury tier
 ├── Business travel
 └── Long-term stays
 
@@ -265,10 +265,10 @@ GROWTH METRICS:
 ┌───────────────────────────────────────────────────┐
 │ Year    │ Listings │ Guests     │ Valuation       │
 ├───────────────────────────────────────────────────┤
-│ 2009    │ 2,500    │ 21,000     │ $2.5M           │
-│ 2011    │ 50,000   │ 1M         │ $1.3B           │
-│ 2015    │ 2M       │ 40M        │ $25.5B          │
-│ 2023    │ 7M+      │ 400M+      │ $85B            │
+│ Year 1  │ 2,500    │ 21,000     │ $2.5M           │
+│ Year 3  │ 50,000   │ 1M         │ $1.3B           │
+│ Year 7  │ 2M       │ 40M        │ $25.5B          │
+│ Year 15 │ 7M+      │ 400M+      │ $85B            │
 └───────────────────────────────────────────────────┘
 
 KEY LESSONS:
@@ -282,11 +282,11 @@ KEY LESSONS:
 
 ## Leadership Case Studies
 
-### Case Study 6: Satya Nadella - Microsoft Transformation
+### Case Study 6: Tech Giant - Cultural Transformation
 
 ```
-CONTEXT (2014):
-- Microsoft perceived as "dying" company
+CONTEXT:
+- Company perceived as "declining"
 - Stock stagnant for decade
 - Mobile missed, cloud behind
 - Internal culture: "Know-it-all" → competitive, political
@@ -299,21 +299,19 @@ CULTURE SHIFT:
 ├─────────────────────────────────────────────────────────────┤
 │  Know-it-all              →    Learn-it-all                │
 │  Fixed mindset            →    Growth mindset              │
-│  Windows-centric          →    Cloud-first, mobile-first   │
+│  Legacy-centric           →    Cloud-first, mobile-first   │
 │  Competitive (internal)   →    Collaborative               │
 │  Closed ecosystem         →    Open source embrace         │
 └─────────────────────────────────────────────────────────────┘
 
 STRATEGIC MOVES:
-1. Azure investment acceleration
-2. Office 365 subscription model
-3. LinkedIn acquisition ($26.2B)
-4. GitHub acquisition ($7.5B)
-5. Activision Blizzard ($68.7B)
-6. OpenAI partnership
+1. Cloud investment acceleration
+2. Subscription model transition
+3. Strategic acquisitions ($100B+)
+4. AI partnership investments
 
-RESULTS (2014-2024):
-✓ Stock: $36 → $400+ (10x+)
+RESULTS (10-year transformation):
+✓ Stock: 10x+ growth
 ✓ Market cap: $300B → $3T+
 ✓ Cloud revenue: $0 → $100B+
 ✓ Employee engagement: Transformed
@@ -321,9 +319,9 @@ RESULTS (2014-2024):
 KEY LEADERSHIP LESSONS:
 1. Culture eats strategy for breakfast
 2. Model the behavior you want (humility, curiosity)
-3. Clear vision: "Mobile-first, cloud-first"
+3. Clear vision with simple message
 4. Empower teams, don't micromanage
-5. Embrace former "enemies" (Linux, open source)
+5. Embrace former "competitors" as partners
 ```
 
 ---

@@ -22,7 +22,7 @@
 └─────────────────────────────────────────┘
 ```
 
-**McKinsey 7S Framework:**
+**7S Framework:**
 ```
            ┌───────────┐
            │  SHARED   │
@@ -58,7 +58,7 @@
 9. **Implementation:** Action plans, KPIs, governance
 10. **Review:** Quarterly strategy reviews
 
-### BCG Growth-Share Matrix
+### Growth-Share Matrix
 
 ```
                     HIGH Market Share    LOW Market Share

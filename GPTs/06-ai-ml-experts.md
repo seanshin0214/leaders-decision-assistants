@@ -33,7 +33,7 @@ User Query
     ↓
 [Query Embedding] ← Embedding Model (text-embedding-3-large)
     ↓
-[Vector Search] ← Vector DB (Pinecone/Chroma/Weaviate)
+[Vector Search] ← Vector DB (any vector database)
     ↓
 [Context Retrieval] → Top-K relevant chunks
     ↓
@@ -43,7 +43,7 @@ User Query
     ├── Context: [Retrieved chunks]
     └── User: [Original query]
     ↓
-[LLM Generation] ← GPT-4/Claude
+[LLM Generation] ← Large Language Model
     ↓
 Response with citations
 ```
@@ -52,21 +52,22 @@ Response with citations
 
 ```python
 # rag_pipeline.py
-from openai import OpenAI
-from pinecone import Pinecone
+# Note: Use your preferred LLM and vector database clients
+from llm_client import LLMClient  # e.g., any LLM API wrapper
+from vector_db import VectorDB    # e.g., any vector database client
 import numpy as np
 
 class RAGPipeline:
-    def __init__(self, openai_api_key: str, pinecone_api_key: str):
-        self.openai = OpenAI(api_key=openai_api_key)
-        self.pc = Pinecone(api_key=pinecone_api_key)
-        self.index = self.pc.Index("knowledge-base")
-        self.embed_model = "text-embedding-3-large"
-        self.chat_model = "gpt-4-turbo-preview"
+    def __init__(self, llm_api_key: str, vector_db_key: str):
+        self.llm = LLMClient(api_key=llm_api_key)
+        self.vector_db = VectorDB(api_key=vector_db_key)
+        self.index = self.vector_db.get_index("knowledge-base")
+        self.embed_model = "text-embedding-large"
+        self.chat_model = "large-language-model"
 
     def embed(self, text: str) -> list[float]:
         """Create embedding for text."""
-        response = self.openai.embeddings.create(
+        response = self.llm.embeddings.create(
             model=self.embed_model,
             input=text
         )
@@ -114,7 +115,7 @@ Answer:"""
             }
         ]
 
-        response = self.openai.chat.completions.create(
+        response = self.llm.chat.completions.create(
             model=self.chat_model,
             messages=messages,
             temperature=0.1

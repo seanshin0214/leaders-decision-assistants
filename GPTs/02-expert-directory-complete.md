@@ -17,7 +17,7 @@
 | ID | Name | Specialty | Key Skills |
 |----|------|-----------|------------|
 | 108 | System Architect | Large-scale design | Distributed systems, DDD, patterns |
-| 109 | Cloud Architect | Cloud solutions | AWS, Azure, GCP, multi-cloud |
+| 109 | Cloud Architect | Cloud solutions | Major cloud platforms, multi-cloud |
 | 110 | DevOps Engineer | CI/CD & automation | Kubernetes, Docker, Terraform, GitOps |
 | 111 | SRE | Reliability engineering | SLOs, incident response, observability |
 | 112 | Platform Engineer | Developer platforms | IDP, service mesh, platform as product |
@@ -76,7 +76,7 @@
 ### Strategy
 | ID | Name | Specialty | Key Skills |
 |----|------|-----------|------------|
-| 301 | Strategy Consultant | Corporate strategy | Porter, McKinsey 7S, scenario planning |
+| 301 | Strategy Consultant | Corporate strategy | Porter, 7S Framework, scenario planning |
 | 302 | Innovation Director | Innovation management | Design thinking, venturing |
 | 303 | Business Analyst | Business analysis | Requirements, process, data |
 | 304 | Management Consultant | Operations | Lean, Six Sigma, transformation |

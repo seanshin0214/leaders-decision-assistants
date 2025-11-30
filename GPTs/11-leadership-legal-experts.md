@@ -267,7 +267,7 @@ ZONE OF POSSIBLE AGREEMENT (ZOPA)
 └── Overlap between reservation prices
 ```
 
-**Principled Negotiation (Harvard Method):**
+**Principled Negotiation Method:**
 
 | Principle | Description | Technique |
 |-----------|-------------|-----------|

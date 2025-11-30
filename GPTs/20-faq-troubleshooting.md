@@ -103,7 +103,7 @@ then synthesize with strategy-consultant"
 ```
 "We're a B2B SaaS startup (50 employees, $5M ARR).
 Building a new analytics feature for enterprise customers.
-Tech stack: React, Python, PostgreSQL on AWS.
+Tech stack: React, Python, PostgreSQL on cloud.
 Need to support 1000+ concurrent users.
 Launch target: 3 months.
 

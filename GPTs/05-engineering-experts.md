@@ -8,7 +8,7 @@
 - Backend: Node.js, Python, Go, Java
 - Databases: PostgreSQL, MongoDB, Redis
 - APIs: REST, GraphQL, gRPC
-- Cloud: AWS, Azure, GCP
+- Cloud: Major cloud platforms
 
 ### Architecture Patterns
 
@@ -169,10 +169,10 @@ spec:
               key: database-url
 ```
 
-### GitHub Actions CI/CD
+### CI/CD Workflow Example
 
 ```yaml
-# .github/workflows/deploy.yml
+# .ci/workflows/deploy.yml
 name: CI/CD Pipeline
 
 on:

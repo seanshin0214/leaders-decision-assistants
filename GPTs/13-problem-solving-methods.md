@@ -2,7 +2,7 @@
 
 ## Structured Problem-Solving
 
-### A3 Problem Solving (Toyota)
+### A3 Problem Solving
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -288,7 +288,7 @@ FIRST PRINCIPLES (Breakthrough)
 ├── Rebuild from scratch
 └── Enables innovation
 
-EXAMPLE: SpaceX Rocket Costs
+EXAMPLE: Rocket Manufacturing Costs
 
 ANALOGY APPROACH:
 "Rockets cost $65M because that's what they cost"

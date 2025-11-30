@@ -19,7 +19,7 @@ The system analyzes conversation context to suggest the most appropriate expert(
 | Docker, Kubernetes, CI/CD, deploy | DevOps Engineer (110) |
 | Security, auth, OWASP, vulnerability | Security Engineer (113) |
 | Python, ML, model, training | Data Scientist (402), ML Engineer (401) |
-| LLM, GPT, Claude, prompt, RAG | LLM Engineer (410), Prompt Engineer (408) |
+| LLM, language model, prompt, RAG | LLM Engineer (410), Prompt Engineer (408) |
 | Test, QA, automation, Cypress | QA Lead (501), Test Automation Engineer (502) |
 | Performance, load, latency, optimize | Performance Engineer (120), Performance Tester (503) |
 
