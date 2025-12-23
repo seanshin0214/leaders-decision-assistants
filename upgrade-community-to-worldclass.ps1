@@ -4,7 +4,7 @@
 # 2. Adds numbers 1-108 to existing personas (alphabetically)
 # 3. Copies 25 new personas (114-138) from ~/.persona
 
-$communityDir = "C:\Users\sshin\Documents\persona-mcp\community"
+$communityDir = "C:\Users\Sean K. S. Shin\Documents\persona-mcp\community"
 $userPersonaDir = "$env:USERPROFILE\.persona"
 
 Write-Host "=== Community Persona Upgrade Started ===" -ForegroundColor Cyan

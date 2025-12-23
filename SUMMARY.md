@@ -12,7 +12,7 @@ Claude Desktop용 페르소나 관리 MCP 서버
 ## 프로젝트 구조
 
 ```
-C:\Users\sshin\Documents\persona-mcp\
+C:\Users\Sean K. S. Shin\Documents\persona-mcp\
 ├── index.js                          # MCP 서버 메인 코드
 ├── package.json                       # 프로젝트 설정
 ├── package-lock.json                  # 의존성 잠금
@@ -37,7 +37,7 @@ C:\Users\sshin\Documents\persona-mcp\
 ### 2. MCP 리소스 (Resources)
 - URI: `persona://이름`
 - 사용: `@persona:이름`
-- 위치: `C:\Users\sshin\.persona\이름.txt`
+- 위치: `C:\Users\Sean K. S. Shin\.persona\이름.txt`
 
 ### 3. 토큰 절약
 - 기본: 페르소나 미사용 → 0토큰
@@ -73,7 +73,7 @@ notepad %APPDATA%\Claude\claude_desktop_config.json
 # 다음 추가:
 "persona": {
   "command": "node",
-  "args": ["C:\\Users\\sshin\\Documents\\persona-mcp\\index.js"]
+  "args": ["C:\\Users\\Sean K. S. Shin\\Documents\\persona-mcp\\index.js"]
 }
 
 # 3. Claude Desktop 재시작
@@ -99,8 +99,8 @@ Claude Desktop에서:
 
 ## 파일 위치
 
-- **프로젝트**: `C:\Users\sshin\Documents\persona-mcp\`
-- **페르소나 저장**: `C:\Users\sshin\.persona\`
+- **프로젝트**: `C:\Users\Sean K. S. Shin\Documents\persona-mcp\`
+- **페르소나 저장**: `C:\Users\Sean K. S. Shin\.persona\`
 - **설정 파일**: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ---

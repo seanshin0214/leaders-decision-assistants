@@ -270,7 +270,7 @@ const PERSONA_DIR = path.join(os.homedir(), '.persona');
   "content": [
     {
       "type": "text",
-      "text": "페르소나 \"professional\"이(가) 생성되었습니다.\n위치: C:\\Users\\sshin\\.persona\\professional.txt"
+      "text": "페르소나 \"professional\"이(가) 생성되었습니다.\n위치: C:\\Users\\Sean K. S. Shin\\.persona\\professional.txt"
     }
   ]
 }
@@ -779,7 +779,7 @@ chmod 600 ~/.persona/*.txt
 node --version  # v18+ 필요
 
 # 직접 실행 테스트
-node C:\Users\sshin\Documents\persona-mcp\index.js
+node C:\Users\Sean K. S. Shin\Documents\persona-mcp\index.js
 ```
 
 ---

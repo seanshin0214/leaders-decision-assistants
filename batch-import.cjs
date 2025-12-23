@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE_DIR = 'C:\\Users\\sshin\\.persona';
+const SOURCE_DIR = 'C:\\Users\\Sean K. S. Shin\\.persona';
 const DEST_DIR = path.join(__dirname, 'community');
 
 // Category mapping

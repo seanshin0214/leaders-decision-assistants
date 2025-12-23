@@ -17,3 +17,10 @@ rag/__pycache__/
 __pycache__/
 *.pyc
 
+
+# Knowledge files (stored in Supabase, not in git)
+knowledge-base/
+gpt-knowledge/
+gpts-knowledge/
+community/
+

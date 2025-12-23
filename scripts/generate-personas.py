@@ -1956,7 +1956,7 @@ Help with:
 - Parent communication"""),
 ]
 
-def write_persona_file(filename, category, difficulty, content, directory="C:/Users/sshin/Documents/persona-mcp/community"):
+def write_persona_file(filename, category, difficulty, content, directory="C:/Users/Sean K. S. Shin/MCP_Servers/persona-mcp/community"):
     filepath = os.path.join(directory, filename + ".txt")
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)

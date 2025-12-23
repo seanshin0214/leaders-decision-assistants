@@ -5,7 +5,7 @@
 ### 1단계: 의존성 설치
 
 ```bash
-cd C:\Users\sshin\Documents\persona-mcp
+cd C:\Users\Sean K. S. Shin\Documents\persona-mcp
 npm install
 ```
 
@@ -24,7 +24,7 @@ npm install
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\sshin\\Documents"]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Sean K. S. Shin\\Documents"]
     },
     "github": {
       "command": "npx",
@@ -44,7 +44,7 @@ npm install
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\sshin\\Documents"]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Sean K. S. Shin\\Documents"]
     },
     "github": {
       "command": "npx",
@@ -56,7 +56,7 @@ npm install
     },
     "persona": {
       "command": "node",
-      "args": ["C:\\Users\\sshin\\Documents\\persona-mcp\\index.js"]
+      "args": ["C:\\Users\\Sean K. S. Shin\\Documents\\persona-mcp\\index.js"]
     }
   }
 }
@@ -98,7 +98,7 @@ Claude Desktop에서:
 
 생성 확인:
 ```
-C:\Users\sshin\.persona\default.txt
+C:\Users\Sean K. S. Shin\.persona\default.txt
 ```
 
 ---
@@ -145,7 +145,7 @@ https://nodejs.org/
 
 관리자 권한으로 CMD 실행 후:
 ```bash
-cd C:\Users\sshin\Documents\persona-mcp
+cd C:\Users\Sean K. S. Shin\Documents\persona-mcp
 npm install
 ```
 
@@ -164,8 +164,8 @@ npm install @modelcontextprotocol/sdk@latest
 
 ### 완전 제거:
 1. MCP 서버 제거 (위)
-2. 프로젝트 폴더 삭제: `C:\Users\sshin\Documents\persona-mcp`
-3. 페르소나 파일 삭제: `C:\Users\sshin\.persona`
+2. 프로젝트 폴더 삭제: `C:\Users\Sean K. S. Shin\Documents\persona-mcp`
+3. 페르소나 파일 삭제: `C:\Users\Sean K. S. Shin\.persona`
 
 ---
 

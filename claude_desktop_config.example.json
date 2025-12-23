@@ -2,7 +2,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\sshin\\Documents"]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Sean K. S. Shin\\Documents"]
     },
     "github": {
       "command": "npx",
@@ -22,7 +22,7 @@
     },
     "persona": {
       "command": "node",
-      "args": ["C:\\Users\\sshin\\Documents\\persona-mcp\\index.js"]
+      "args": ["C:\\Users\\Sean K. S. Shin\\Documents\\persona-mcp\\index.js"]
     }
   }
 }

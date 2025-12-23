@@ -72,11 +72,11 @@ All 5 AI tools remain fully functional (no changes needed):
 
 | Tool | Status | Config Path |
 |------|--------|-------------|
-| **Claude Desktop** | ✅ Working | `C:\Users\sshin\AppData\Roaming\Claude\claude_desktop_config.json` |
-| **Claude Code** | ✅ Working | `C:\Users\sshin\AppData\Roaming\Claude\claude_code_config.json` |
-| **Cursor** | ✅ Working | `C:\Users\sshin\AppData\Roaming\Cursor\User\settings.json` |
-| **Windsurf** | ✅ Working | `C:\Users\sshin\AppData\Roaming\Windsurf\User\settings.json` |
-| **Antigravity** | ✅ Working | `C:\Users\sshin\AppData\Roaming\Antigravity\User\mcp.json` |
+| **Claude Desktop** | ✅ Working | `C:\Users\Sean K. S. Shin\AppData\Roaming\Claude\claude_desktop_config.json` |
+| **Claude Code** | ✅ Working | `C:\Users\Sean K. S. Shin\AppData\Roaming\Claude\claude_code_config.json` |
+| **Cursor** | ✅ Working | `C:\Users\Sean K. S. Shin\AppData\Roaming\Cursor\User\settings.json` |
+| **Windsurf** | ✅ Working | `C:\Users\Sean K. S. Shin\AppData\Roaming\Windsurf\User\settings.json` |
+| **Antigravity** | ✅ Working | `C:\Users\Sean K. S. Shin\AppData\Roaming\Antigravity\User\mcp.json` |
 
 **Why they work**: All tools point to `persona-mcp/dist/index.js` which reads from `~/.persona/` directory. The renamed files are already in place.
 
@@ -176,7 +176,7 @@ Backup folder: 138 personas ✅
 
 ### MCP Server
 ```bash
-Path: C:\Users\sshin\Documents\persona-mcp\dist\index.js
+Path: C:\Users\Sean K. S. Shin\Documents\persona-mcp\dist\index.js
 Reads from: ~/.persona/
 Status: ✅ All 138 personas accessible
 ```

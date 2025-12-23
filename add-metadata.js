@@ -3,8 +3,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-const SOURCE_DIR = 'C:\\Users\\sshin\\.persona';
-const DEST_DIR = 'C:\\Users\\sshin\\Documents\\persona-mcp\\community';
+const SOURCE_DIR = 'C:\\Users\\Sean K. S. Shin\\.persona';
+const DEST_DIR = 'C:\\Users\\Sean K. S. Shin\\Documents\\persona-mcp\\community';
 
 // 카테고리 매핑 (파일명 패턴으로 자동 분류)
 const categoryMap = {

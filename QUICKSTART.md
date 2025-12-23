@@ -11,7 +11,7 @@
 
 ### 1. 의존성 설치 ✓
 ```bash
-cd C:\Users\sshin\Documents\persona-mcp
+cd C:\Users\Sean K. S. Shin\Documents\persona-mcp
 npm install
 ```
 → 이미 완료됨
@@ -24,7 +24,7 @@ npm install
 ```json
 "persona": {
   "command": "node",
-  "args": ["C:\\Users\\sshin\\Documents\\persona-mcp\\index.js"]
+  "args": ["C:\\Users\\Sean K. S. Shin\\Documents\\persona-mcp\\index.js"]
 }
 ```
 
@@ -95,7 +95,7 @@ bullet point 형식을 선호합니다.
 
 1. INSTALL.md - 상세 설치 가이드
 2. README.md - 전체 기능 설명
-3. 직접 페르소나 파일 수정: `C:\Users\sshin\.persona\이름.txt`
+3. 직접 페르소나 파일 수정: `C:\Users\Sean K. S. Shin\.persona\이름.txt`
 
 ---
 
